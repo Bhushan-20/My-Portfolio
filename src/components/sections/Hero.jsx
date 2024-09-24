@@ -120,20 +120,25 @@ const Hero = () => {
         </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          transition={{ delay: 0.4, duration: 0.5 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: [0, -20, 0] }} // Combined opacity and up-down motion
+          transition={{
+            opacity: { delay: 0.4, duration: 0.5 }, // Initial opacity transition
+            y: { duration: 4, repeat: Infinity, ease: "easeInOut" }, // Up and down motion
+          }}
           viewport={{ once: true }}
-          className="w-[15rem] h-[15rem] sm:w-[18rem] sm:h-[18rem]"
+          className="w-[15rem] h-[15rem] sm:w-[18rem] sm:h-[18rem] shadow-lg rounded-lg"
         >
           <div
-            className="w-full h-full rounded-custom animate-morph border border-themeBlue bg-no-repeat"
+            className="w-full h-full rounded-lg border border-themeBlue bg-no-repeat"
             style={{
               backgroundImage: `url(${Profile})`,
               backgroundPosition: "center center",
               backgroundSize: "cover",
+              boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.15)",
             }}
           ></div>
         </motion.div>
+
       </div>
     </section>
   );
