@@ -97,8 +97,8 @@ export const otherProjects = [
   {
     title: "Weather App",
     description:
-      "Seamless currency conversion using my React-powered tool. Switch b/w currencies real-time data from a reliable API.",
-    tags: ["React", "API", "Tailwind"],
+    "A responsive Weather App built with HTML, CSS, and JavaScript, utilizing a weather API to deliver real-time weather updates. Users can easily search for locations to view current weather conditions in a clean and intuitive interface.",
+    tags: ["HTML5","CSS","Javascript", "API"],
     github: "https://github.com/Bhushan-20/Weather-App",
     demo: "https://github.com/Bhushan-20/Weather-App",
   },
