@@ -11,9 +11,9 @@ const OtherProjectCard = ({
       transition={{ delay: 0.2, duration: 0.5 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      className="relative transition-all duration-200 ease-in-out"
+      className="relative transition-all duration-300 ease-in-out"
     >
-      <div className="group flex flex-col justify-center items-start relative h-full px-7 py-8 rounded-[4px] bg-[#112240] transition-all duration-200 ease-in-out overflow-auto shadow-aboutShadow cursor-pointer">
+      <div className="group flex flex-col justify-center items-start relative h-full px-7 py-8 rounded-[4px] bg-[#112240] transition-all duration-300 ease-in-out overflow-auto hover:scale-105 hover:shadow-lg hover:border hover:border-themeBlue shadow-aboutShadow cursor-pointer">
         <header>
           <div className="flex justify-between items-center mb-[35px]">
             <div className="text-themeBlue text-5xl">
