@@ -33,7 +33,7 @@ const SocialLinks = () => {
         <div className="block w-[1px] h-[90px] mx-auto my-0 mt-[15px] bg-secondaryText"></div>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         className="w-[40px] hidden fixed bottom-0 md:block left-auto right-[20px] lg:right-[40px] z-10 text-primaryText "
         initial={{ opacity: 0 }}
         transition={{ delay: 0.5, duration: 0.5 }}
@@ -53,7 +53,7 @@ const SocialLinks = () => {
         </div>
 
         <div className="block w-[1px] h-[90px] mx-auto my-0 bg-secondaryText"></div>
-      </motion.div>
+      </motion.div> */}
     </>
   );
 };
