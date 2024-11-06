@@ -1,8 +1,8 @@
 import { LuLinkedin, LuGithub } from "react-icons/lu";
 import { SiLeetcode } from "react-icons/si";
-import Edulicious from "../assets/Edulicious.png";
-import Jobify from "../assets/Jobify.png";
-import Face from "../assets/Face.jpg";
+import Edulicious from "../assets/Edulicious.mp4";
+import Jobify from "../assets/Jobify.mp4";
+import Face from "../assets/face.mp4";
 
 export const navLinks = [
   {
@@ -63,7 +63,7 @@ export const mainProjects = [
     tags: ["React","Tailwind CSS", "ExpressJS", "Node.js","MongoDB"],
     github: "https://github.com/Bhushan-20/Edulicious",
     demo: "https://edulicious-bhushan.vercel.app/",
-    image: Edulicious,
+    video: Edulicious,
   },
   {
     title: "Jobify - Job Portal",
@@ -72,7 +72,7 @@ export const mainProjects = [
     tags: ["React", "Tailwind CSS", "ExpressJS", "Node.js","MongoDB"],
     github: "https://github.com/Bhushan-20/Job-Portal",
     demo: "https://jobify-bhushan.vercel.app/",
-    image: Jobify,
+    video: Jobify,
   },
   {
     title: "Face Recognition Attendance System",
@@ -81,7 +81,7 @@ export const mainProjects = [
     tags: ["Python", "MySQL", "Excel", "Tkinter", "LBPH Algorithm"],
     github: "https://github.com/Bhushan-20/Face-Recognition-Attendance-System",
     demo: "https://github.com/Bhushan-20/Face-Recognition-Attendance-System",
-    image: Face,
+    video: Face,
   },
 ];
 
